@@ -1,4 +1,5 @@
 import React from "react";
+import { NavLink } from "react-router-dom";
 
 const features = [
   {
@@ -44,12 +45,12 @@ export default function BankAccount() {
             <div>
               <h3 className="text-lg font-bold text-white mb-1">{item.title}</h3>
               <p className="text-gray-300 text-sm mb-2">{item.desc}</p>
-              <a
-                href="#"
+              <NavLink
+                to='/about'
                 className="text-[#00A3FF] font-semibold text-sm hover:underline"
               >
                 {item.link}
-              </a>
+              </NavLink>
             </div>
           </div>
         ))}

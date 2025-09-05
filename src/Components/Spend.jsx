@@ -20,7 +20,7 @@ export default function Spend() {
     <section className="bg-[#181A20] w-full  justify-between  flex flex-col md:flex-row items-center md:items-start  py-12 gap-8">
       {/* Left Side: Placeholder for image or card */}
       <div className="flex-1 flex items-center px-4  mb-8 md:mb-0">
-        <div className="w-[260px] h-[350px] bg-[#202E48] rounded-lg opacity-40"></div>
+        <div className="hidden sm:block w-[260px] h-[350px] bg-[#202E48] rounded-lg opacity-40"></div>
       </div>
       {/* Right Side: Content */}
       <div className="flex-1 flex flex-col justify-end items-start">

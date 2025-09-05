@@ -26,7 +26,7 @@ export default function BuildWealth() {
     <section className="bg-[#181A20] w-full   flex flex-col md:flex-row items-center md:items-start px-4 py-12 gap-8">
       {/* Left Side: Placeholder for image or card */}
       <div className="flex-1 flex items-center px-4 mb-8 md:mb-0">
-        <div className="w-[400px] h-[430px] bg-[#202E48] rounded-lg opacity-40"></div>
+        <div className="w-[400px] hidden sm:block  h-[430px] bg-[#202E48] rounded-lg opacity-40"></div>
       </div>
       {/* Right Side: Content */}
       <div className="flex-1 flex flex-col justify-end items-start">
